@@ -1,6 +1,19 @@
-var momGave = 1000;
-var orangePrice = 400;
-var applePrice = 300;
-var totalCost = orangePrice + applePrice;
-var remainingMoney = momGave - totalCost;
-console.log(remainingMoney);
+// class-1 first-problem solved--------------------
+// var momGave = 1000;
+// var orangePrice = 400;
+// var applePrice = 200;
+// var totalCost = orangePrice + applePrice;
+// var remainingMoney = momGave - totalCost;
+// console.log(remainingMoney);
+//-------------------------------------------------- 
+//--------------------Problem-2---------------------
+var markOfMaths = 75.25;
+var markOfBiology = 65;
+var markOfChemistry = 80;
+var markOfPhysics = 35.45;
+var markOfBangla = 99.50;
+var averageMark = (markOfMaths + markOfBiology + markOfChemistry + markOfPhysics + markOfBangla)/5;
+var averageTotalMark = parseFloat(averageMark).toFixed(2);
+console.log(averageTotalMark);
+//-----------------------Problem-2-solved-----------------------
+
