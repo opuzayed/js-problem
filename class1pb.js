@@ -16,4 +16,10 @@ var averageMark = (markOfMaths + markOfBiology + markOfChemistry + markOfPhysics
 var averageTotalMark = parseFloat(averageMark).toFixed(2);
 console.log(averageTotalMark);
 //-----------------------Problem-2-solved-----------------------
+//-----------------------Problem-3-start-----------------------
+var firstLine = 'I am going to be';
+var secondLine = 'an awesome web developer';
+var inOneLine = firstLine + ' ' + secondLine;
+console.log(inOneLine);
+//------------------------Problem-3-end-------------------------- 
 
