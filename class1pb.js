@@ -38,8 +38,29 @@ console.log('output : ' , remainderNumber);
 // numbers.shift();
 // console.log(numbers);
 // -----------------find index of banana and replace banana with watermelon--------------
-var fruits = ['apple', 'banana', 'orange'];
-var bananaPosition = fruits.indexOf('orange');
-console.log(bananaPosition);
-fruits.splice(bananaPosition, 2, 'watermelon');
-console.log(fruits);
+// var fruits = ['apple', 'banana', 'orange'];
+// var bananaPosition = fruits.indexOf('orange');
+// console.log(bananaPosition);
+// fruits.splice(bananaPosition, 2, 'watermelon');
+// console.log(fruits);
+// -----------------------OR------------------------
+// var fruits = ['Apple', 'Banana', 'Orange'];
+// var positionBanana = fruits.indexOf('Banana');
+// console.log(positionBanana);
+// fruits[1] = 'Mango';
+// console.log(fruits);
+// fruits.pop();
+// console.log(fruits);
+// fruits.push('watermelon');
+// console.log(fruits);
+// //----------------------condition-apply------------------------
+// var iphonePrice = 95000;
+// var myBudget = 45600;
+// if(iphonePrice < myBudget)
+// {
+//     console.log("I will buy a iphone");
+
+// }
+// else{
+//     console.log("I will not able to buy a iphone");
+// }
