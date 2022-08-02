@@ -64,3 +64,31 @@ console.log('output : ' , remainderNumber);
 // else{
 //     console.log("I will not able to buy a iphone");
 // }
+// ------------------------condition-grade------------------------
+// var num1 = 80;
+// var num2 = 60;
+// var num3 = 50;
+// var num4 = 40;
+// var num5 = 39;
+const prompt = require ("prompt-sync")({sigint : true});
+var marks = prompt('Enter your marks : ')
+if(marks >= 80 && marks <= 100)
+{
+    console.log('your grade is A ');
+}
+else if(marks >= 60 && marks <=79)
+{
+console.log('your grade is B');
+}
+else if(marks >= 50 && marks <= 59)
+{
+console.log('your grade is C');
+}
+else if(marks >= 40 && marks <= 49)
+{
+console.log('your grade is D')
+}
+else
+{
+    console.log('You are fail in exam');
+}
