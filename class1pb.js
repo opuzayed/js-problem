@@ -30,6 +30,16 @@ console.log('output : ' , remainderNumber);
 //------------------------problem-4-end------------------------------  
 
 // -----------------------array-problem(push element in the beggining)------------------------
-var numbers = [1, 2, 3, 4, 5];
-numbers.unshift(6, 7);
-console.log(numbers);
+// var numbers = [1, 2, 3, 4, 5];
+// numbers.unshift(6, 7, 8, 9);
+// console.log(numbers);
+// ---------------------------push apply in the array-------------------------------
+// var numbers = [10, 11, 12];
+// numbers.shift();
+// console.log(numbers);
+// -----------------find index of banana and replace banana with watermelon--------------
+var fruits = ['apple', 'banana', 'orange'];
+var bananaPosition = fruits.indexOf('orange');
+console.log(bananaPosition);
+fruits.splice(bananaPosition, 2, 'watermelon');
+console.log(fruits);
