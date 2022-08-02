@@ -108,20 +108,27 @@ console.log('output : ' , remainderNumber);
 //     console.log('145 is the largest number');
 // }
 //---------------------------OR----------------------
-const prompt = require ("prompt-sync")({sigint : true});
+// const prompt = require ("prompt-sync")({sigint : true});
+// var num1 = parseFloat(prompt('Enter the first number : '));
+// var num2 = parseFloat(prompt('Enter the second number : '));
+// var num3 = parseFloat(prompt('Enter the third number : '));
+// var largestnumber;
+// if(num1 > num2 && num1 > num3)
+// {
+//     largestnumber = num1;
+// }
+// else if(num2 > num3 && num2 > num1)
+// {
+// largestnumber = num2;
+// }
+// else{
+//     largestnumber = num3;
+// }
+// console.log('The largest number is : ' + largestnumber);
+//-------------------check the largest---------------------
+var prompt = require ("prompt-sync")({sigint : true});
 var num1 = parseFloat(prompt('Enter the first number : '));
 var num2 = parseFloat(prompt('Enter the second number : '));
 var num3 = parseFloat(prompt('Enter the third number : '));
-var largestnumber;
-if(num1 > num2 && num1 > num3)
-{
-    largestnumber = num1;
-}
-else if(num2 > num3 && num2 > num1)
-{
-largestnumber = num2;
-}
-else{
-    largestnumber = num3;
-}
+var largestnumber = Math.max(num1, num2, num3);
 console.log('The largest number is : ' + largestnumber);
