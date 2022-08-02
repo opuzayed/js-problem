@@ -29,3 +29,7 @@ var remainderNumber = 119 % 5;
 console.log('output : ' , remainderNumber);
 //------------------------problem-4-end------------------------------  
 
+// -----------------------array-problem(push element in the beggining)------------------------
+var numbers = [1, 2, 3, 4, 5];
+numbers.unshift(6, 7);
+console.log(numbers);
