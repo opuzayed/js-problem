@@ -126,9 +126,23 @@ console.log('output : ' , remainderNumber);
 // }
 // console.log('The largest number is : ' + largestnumber);
 //-------------------check the largest---------------------
-var prompt = require ("prompt-sync")({sigint : true});
-var num1 = parseFloat(prompt('Enter the first number : '));
-var num2 = parseFloat(prompt('Enter the second number : '));
-var num3 = parseFloat(prompt('Enter the third number : '));
-var largestnumber = Math.max(num1, num2, num3);
-console.log('The largest number is : ' + largestnumber);
+// var prompt = require ("prompt-sync")({sigint : true});
+// var num1 = parseFloat(prompt('Enter the first number : '));
+// var num2 = parseFloat(prompt('Enter the second number : '));
+// var num3 = parseFloat(prompt('Enter the third number : '));
+// var largestnumber = Math.max(num1, num2, num3);
+// console.log('The largest number is : ' + largestnumber);
+//----------------------You are given a triangle with the sides 9, 8, 9. Write a program to check whether a triangle is Isosceles or not using if-else
+var num1 = 9;
+var num2 = 8;
+var num3 = 9;
+if(num1 == num2 && num1 == num3 && num2 == num3 )
+{
+console.log('This is Equilateral triangle');
+}
+else if(num1 == num2 || num2 == num3 || num1 == num3){
+console.log('This is Isosceles');
+}
+else{
+    console.log(blank);
+}
