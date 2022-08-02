@@ -93,17 +93,35 @@ console.log('output : ' , remainderNumber);
 //     console.log('You are fail in exam');
 // }
 // ----------------------check-largest-number------------------
-var num1 = 113;
-var num2 = 79;
-var num3 = 145;
+// var num1 = 113;
+// var num2 = 79;
+// var num3 = 145;
+// if(num1 > num2 && num1 > num3)
+// {
+//     console.log('113 is the largest number');
+// }
+// else if(num2 > num1 && num2 > num3)
+// {
+// console.log('79 is the largest number');
+// }
+// else{
+//     console.log('145 is the largest number');
+// }
+//---------------------------OR----------------------
+const prompt = require ("prompt-sync")({sigint : true});
+var num1 = parseFloat(prompt('Enter the first number : '));
+var num2 = parseFloat(prompt('Enter the second number : '));
+var num3 = parseFloat(prompt('Enter the third number : '));
+var largestnumber;
 if(num1 > num2 && num1 > num3)
 {
-    console.log('113 is the largest number');
+    largestnumber = num1;
 }
-else if(num2 > num1 && num2 > num3)
+else if(num2 > num3 && num2 > num1)
 {
-console.log('79 is the largest number');
+largestnumber = num2;
 }
 else{
-    console.log('145 is the largest number');
+    largestnumber = num3;
 }
+console.log('The largest number is : ' + largestnumber);
