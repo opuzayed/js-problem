@@ -70,25 +70,40 @@ console.log('output : ' , remainderNumber);
 // var num3 = 50;
 // var num4 = 40;
 // var num5 = 39;
-const prompt = require ("prompt-sync")({sigint : true});
-var marks = prompt('Enter your marks : ')
-if(marks >= 80 && marks <= 100)
+// const prompt = require ("prompt-sync")({sigint : true});
+// var marks = prompt('Enter your marks : ')
+// if(marks >= 80 && marks <= 100)
+// {
+//     console.log('your grade is A ');
+// }
+// else if(marks >= 60 && marks <=79)
+// {
+// console.log('your grade is B');
+// }
+// else if(marks >= 50 && marks <= 59)
+// {
+// console.log('your grade is C');
+// }
+// else if(marks >= 40 && marks <= 49)
+// {
+// console.log('your grade is D')
+// }
+// else
+// {
+//     console.log('You are fail in exam');
+// }
+// ----------------------check-largest-number------------------
+var num1 = 113;
+var num2 = 79;
+var num3 = 145;
+if(num1 > num2 && num1 > num3)
 {
-    console.log('your grade is A ');
+    console.log('113 is the largest number');
 }
-else if(marks >= 60 && marks <=79)
+else if(num2 > num1 && num2 > num3)
 {
-console.log('your grade is B');
+console.log('79 is the largest number');
 }
-else if(marks >= 50 && marks <= 59)
-{
-console.log('your grade is C');
-}
-else if(marks >= 40 && marks <= 49)
-{
-console.log('your grade is D')
-}
-else
-{
-    console.log('You are fail in exam');
+else{
+    console.log('145 is the largest number');
 }
