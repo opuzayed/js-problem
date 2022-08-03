@@ -191,9 +191,17 @@ console.log('output : ' , remainderNumber);
 //    console.log(number);
 //    number = number + 2;
 // }
-console.log('simple for loop');
+// -------------------------1-10-porjonto-print-------------------
+/* console.log('simple for loop');
 var i;
 for(i=0; i<10; i++)
 {
    console.log(i);
+} */
+//--------------array theke loop er through te element ber kora-----------------
+var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+for(var i=0; i<numbers.length; i++)
+{
+var number = numbers[i];
+console.log(number);
 }
