@@ -39,7 +39,7 @@ console.log('output : ' , remainderNumber);
 // console.log(numbers);
 // -----------------find index of banana and replace banana with watermelon--------------
 // var fruits = ['apple', 'banana', 'orange'];
-// var bananaPosition = fruits.indexOf('orange');
+// var bananaPosition = fruits.indexOf('banana');
 // console.log(bananaPosition);
 // fruits.splice(bananaPosition, 2, 'watermelon');
 // console.log(fruits);
@@ -133,16 +133,41 @@ console.log('output : ' , remainderNumber);
 // var largestnumber = Math.max(num1, num2, num3);
 // console.log('The largest number is : ' + largestnumber);
 //----------------------You are given a triangle with the sides 9, 8, 9. Write a program to check whether a triangle is Isosceles or not using if-else
-var num1 = 9;
-var num2 = 8;
-var num3 = 9;
-if(num1 == num2 && num1 == num3 && num2 == num3 )
-{
-console.log('This is Equilateral triangle');
-}
-else if(num1 == num2 || num2 == num3 || num1 == num3){
-console.log('This is Isosceles');
-}
-else{
-    console.log(blank);
-}
+// var num1 = 9;
+// var num2 = 8;
+// var num3 = 9;
+// if(num1 == num2 && num1 == num3 && num2 == num3 )
+// {
+// console.log('This is Equilateral triangle');
+// }
+// else if(num1 == num2 || num2 == num3 || num1 == num3){
+// console.log('This is Isosceles');
+// }
+// else{
+//     console.log(blank);
+// }
+//------------------------or-upper-solution---------------------------
+// var prompt = require ("prompt-sync")({sigint : true});
+// var num1 = parseInt(prompt("Enter the first number : "));
+// var num2 = parseInt(prompt("Enter the second number : "));
+// var num3 = parseInt(prompt("Enter the third number : "));
+// if(num1 == num2 && num1 == num3 & num2 == num3)
+// {
+//     console.log("Equilateral Triangle");
+// }
+// else if(num1 == num2 || num1 == num3 || num2 == num3)
+// {
+// console.log("Isoscelis triangle");
+// }
+
+// else{
+//     console.log("blank");
+// }
+//----------------------------While-Loop--------------------
+ var number = 0;
+ while(number < 5)
+ {
+    console.log('counting number');
+    console.log(number);
+    number++;
+ }
