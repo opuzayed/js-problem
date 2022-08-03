@@ -172,9 +172,28 @@ console.log('output : ' , remainderNumber);
 //     number++;
 //  }
 //----------------------number-counting-while loop-------------------
-var number = 0;
-while(number <= 10)
+// var number = 0;
+// while(number <= 10)
+// {
+//    console.log(number);
+//    number++;
+// }
+//----------------- print even number---------------------
+// var number = 0;
+// while(number <= 20){
+//    console.log(number);
+//    number = number + 2;
+// }
+// ------------------------------print odd number------------------------------
+// var number = 1;
+// while(number <= 10)
+// {
+//    console.log(number);
+//    number = number + 2;
+// }
+console.log('simple for loop');
+var i;
+for(i=0; i<10; i++)
 {
-   console.log(number);
-   number++;
+   console.log(i);
 }
