@@ -164,10 +164,17 @@ console.log('output : ' , remainderNumber);
 //     console.log("blank");
 // }
 //----------------------------While-Loop--------------------
- var number = 0;
- while(number < 5)
- {
-    console.log('counting number');
-    console.log(number);
-    number++;
- }
+//  var number = 0;
+//  while(number < 5)
+//  {
+//     console.log('counting number');
+//     console.log(number);
+//     number++;
+//  }
+//----------------------number-counting-while loop-------------------
+var number = 0;
+while(number <= 10)
+{
+   console.log(number);
+   number++;
+}
