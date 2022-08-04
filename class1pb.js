@@ -294,7 +294,7 @@ var shoppingCart = {
    books : 4,
    mouse : 3
 }
-console.log(shoppingCart);
+/* console.log(shoppingCart);
 var countPen = shoppingCart.pen;
 //console.log(countPen);
    //or
@@ -314,4 +314,13 @@ shoppingCart['mouse'] = 56;
 console.log(shoppingCart);
 shoppingCart[propertyName] = 45;
 console.log(shoppingCart);
-
+ */
+//-------------------------looping in object-------------------
+var shoppingCart = {
+   egg : 4,
+   pen : 6,
+   book : 5,
+   boyttle : 6
+}
+var items = Object.keys(shoppingCart);
+console.log(items);
