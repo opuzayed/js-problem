@@ -324,3 +324,17 @@ var shoppingCart = {
 }
 var items = Object.keys(shoppingCart);
 console.log(items);
+const values = Object.values(shoppingCart);
+console.log(values);
+for(var i=0; i<items.length; i++)
+{
+   var propertyName = items[i];
+   var propertyValues = shoppingCart[propertyName];
+   //console.log(propertyName, propertyValues);
+}
+//-----------------------or----------------------
+for(var propertyName in shoppingCart)
+{
+   var propertyValues = shoppingCart[propertyName];
+   console.log(propertyName, propertyValues);
+}
