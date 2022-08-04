@@ -23,10 +23,10 @@
 // console.log(inOneLine);
 //------------------------Problem-3-solved--------------------------
 //------------------------problem-4-start----------------------------
-var givenNumber = 119;
+/* var givenNumber = 119;
 var dividedNumber = 5;
 var remainderNumber = 119 % 5;
-console.log('output : ' , remainderNumber);
+console.log('output : ' , remainderNumber); */
 //------------------------problem-4-end------------------------------  
 
 // -----------------------array-problem(push element in the beggining)------------------------
@@ -226,12 +226,27 @@ for (i=0; i<5; i++){};
 console.log(i);
  */
 // ------------------substring--------------
-/* var names = 'opu is a engineer';
-var result =names.substring(0, 5);
+/* var names = 'opuis a engineer';
+var result = names.substring(0, 5);
 console.log(result); */
 //-----------------declare function----------------
-function myFunction()
+/* function myFunction()
 {
    console.log('I am opu');
 }
-myFunction();
+myFunction(); */
+// -------------function with parameter--------------
+// function myFunction(money)
+// {
+//    console.log('I am developer');
+//    console.log(money);
+// }
+// let taka = 1110;
+// myFunction(taka);
+// ---------------------------------------function-------------------------
+function sum(num1, num2, num3, num4)
+{
+   var sum = num1 + num2 + num3 + num4;
+   console.log('Sumof the value : ',sum);
+}
+sum(2, 4, 4, 4);
