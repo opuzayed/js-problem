@@ -265,7 +265,7 @@ var mytaka = 150;
 var singaras = bringSingara(mytaka);
 console.log('eating singara : ' ,singaras); */
 //----------------------function-get-average---------------------
-function getAverage(ass1, ass2, ass3)
+/* function getAverage(ass1, ass2, ass3)
 {
    const total = ass1 + ass2 + ass3;
    const average = total / 3;
@@ -275,4 +275,29 @@ const ass1 = 60;
 const ass2 = 50;
 const ass3 = 60;
 const myAverage = getAverage(ass1, ass2, ass3);
-console.log('My average assignment number : ' , myAverage);
+console.log('My average assignment number : ' , myAverage); */
+//-----------------------Function-Example--------------------
+/* function add(num1, num2)
+{
+    const result = num1 + num2;
+    return result;
+}
+const result1 = add(12, 12);
+const result2 = add(25, 25);
+const finalResult = result1 + result2;
+console.log('The final result is : ' , finalResult); */
+//----------------------object_example--------------------
+var shoppingCart = {
+   egg : 12,
+   hen : 3,
+   pen : 34,
+   books : 4,
+   mouse : 3
+}
+console.log(shoppingCart);
+var countPen = shoppingCart.pen;
+console.log(countPen);
+   //or
+var penCount2 = shoppingCart['egg'];
+console.log(penCount2);   
+
