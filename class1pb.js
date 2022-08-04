@@ -244,9 +244,24 @@ myFunction(); */
 // let taka = 1110;
 // myFunction(taka);
 // ---------------------------------------function-------------------------
-function sum(num1, num2, num3, num4)
+/* function add(num1, num2)
 {
-   var sum = num1 + num2 + num3 + num4;
-   console.log('Sumof the value : ',sum);
+   console.log(num1, num2);
+   var sum = num1 + num2;
+   //console.log('The sum of two numbers : ' ,sum);
+   return sum;
 }
-sum(2, 4, 4, 4);
+//add(13, 13);
+var total = add(30, 30);
+console.log('total : ',total); */
+// -----------------------------------function-example-----------------------
+function bringSingara(money)
+{
+   var singraPrice = 10;
+   var quantity = money / singraPrice;
+   return quantity;
+}
+var mytaka = 150;
+var singaras = bringSingara(mytaka);
+console.log('eating singara : ' ,singaras);
+
