@@ -217,7 +217,15 @@ while(number >= 1)
 console.log(number);
 number--;
 } */
-for(var i=10; i>=1; i--)
+/* for(var i=10; i>=1; i--)
 {
 console.log(i);
-}
+} */
+/* var i = 0;
+for (i=0; i<5; i++){};
+console.log(i);
+ */
+// ------------------substring--------------
+var names = 'opu is a engineer';
+var result =names.substring(0, 5);
+console.log(result);
