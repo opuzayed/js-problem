@@ -296,8 +296,12 @@ var shoppingCart = {
 }
 console.log(shoppingCart);
 var countPen = shoppingCart.pen;
-console.log(countPen);
+//console.log(countPen);
    //or
 var penCount2 = shoppingCart['egg'];
-console.log(penCount2);   
+//console.log(penCount2);
+var properties = Object.keys(shoppingCart); 
+console.log(properties);
+var propertyValues = Object.values(shoppingCart);
+console.log(propertyValues);  
 
