@@ -5,7 +5,7 @@
 // var totalCost = orangePrice + applePrice;
 // var remainingMoney = momGave - totalCost;
 // console.log(remainingMoney);
-//-------------------------------------------------- 
+//--------------------------------------------------
 //--------------------Problem-2---------------------
 // var markOfMaths = 75.25;
 // var markOfBiology = 65;
@@ -27,7 +27,7 @@
 var dividedNumber = 5;
 var remainderNumber = 119 % 5;
 console.log('output : ' , remainderNumber); */
-//------------------------problem-4-end------------------------------  
+//------------------------problem-4-end------------------------------
 
 // -----------------------array-problem(push element in the beggining)------------------------
 // var numbers = [1, 2, 3, 4, 5];
@@ -288,12 +288,12 @@ const finalResult = result1 + result2;
 console.log('The final result is : ' , finalResult); */
 //----------------------object_example--------------------
 var shoppingCart = {
-   egg : 12,
-   hen : 3,
-   pen : 34,
-   books : 4,
-   mouse : 3
-}
+  egg: 12,
+  hen: 3,
+  pen: 34,
+  books: 4,
+  mouse: 3,
+};
 /* console.log(shoppingCart);
 var countPen = shoppingCart.pen;
 //console.log(countPen);
@@ -316,7 +316,7 @@ shoppingCart[propertyName] = 45;
 console.log(shoppingCart);
  */
 //-------------------------looping in object-------------------
-var shoppingCart = {
+/* var shoppingCart = {
    egg : 4,
    pen : 6,
    book : 5,
@@ -329,12 +329,30 @@ console.log(values);
 for(var i=0; i<items.length; i++)
 {
    var propertyName = items[i];
-   var propertyValues = shoppingCart[propertyName];
-   //console.log(propertyName, propertyValues);
-}
+   var propertyValues = shoppingCart[propertyName]; */
+//console.log(propertyName, propertyValues);
+
 //-----------------------or----------------------
-for(var propertyName in shoppingCart)
+/* for(var propertyName in shoppingCart)
 {
    var propertyValues = shoppingCart[propertyName];
    console.log(propertyName, propertyValues);
+} */
+//------------------------switch------------------
+var color = "black";
+switch (color) {
+  case "green":
+    console.log("green light");
+    break;
+  case "red":
+    console.log("red light");
+    break;
+  case "white":
+    console.log("white light");
+    break;
+  case "black":
+    console.log("black light");
+    break;
+  default:
+    console.log("sun light");
 }
