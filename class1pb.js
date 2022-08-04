@@ -255,7 +255,7 @@ myFunction(); */
 var total = add(30, 30);
 console.log('total : ',total); */
 // -----------------------------------function-example-----------------------
-function bringSingara(money)
+/* function bringSingara(money)
 {
    var singraPrice = 10;
    var quantity = money / singraPrice;
@@ -263,5 +263,16 @@ function bringSingara(money)
 }
 var mytaka = 150;
 var singaras = bringSingara(mytaka);
-console.log('eating singara : ' ,singaras);
-
+console.log('eating singara : ' ,singaras); */
+//----------------------function-get-average---------------------
+function getAverage(ass1, ass2, ass3)
+{
+   const total = ass1 + ass2 + ass3;
+   const average = total / 3;
+   return parseInt(average);
+}
+const ass1 = 60;
+const ass2 = 50;
+const ass3 = 60;
+const myAverage = getAverage(ass1, ass2, ass3);
+console.log('My average assignment number : ' , myAverage);
