@@ -226,6 +226,12 @@ for (i=0; i<5; i++){};
 console.log(i);
  */
 // ------------------substring--------------
-var names = 'opu is a engineer';
+/* var names = 'opu is a engineer';
 var result =names.substring(0, 5);
-console.log(result);
+console.log(result); */
+//-----------------declare function----------------
+function myFunction()
+{
+   console.log('I am opu');
+}
+myFunction();
