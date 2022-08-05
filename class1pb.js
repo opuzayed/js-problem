@@ -464,4 +464,27 @@ console.log('odd number sum : ', oddNumberSum); */
 //const myNumbers = [12, 13, 14, 15, 16, 17, 18];
 //getSumOfAnAray(myNumbers);
 
-
+//------------------sum of number----------------
+/* function addNumbers(numbers)
+{
+   let sum = 0;
+   for(let i=1; i<=numbers; i++)
+   {
+   sum = sum + i;
+   console.log(i,sum);
+   }
+   return sum;
+}
+addNumbers(7);
+ */
+function factorial(number)
+{
+   let result = 1;
+for(let i = number; i >= 1; i--){
+   result = result * i; 
+   console.log(i);
+}
+return result;
+}
+let fact = factorial(7);
+console.log('the factorial is : ' , fact);
