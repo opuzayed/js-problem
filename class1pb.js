@@ -365,6 +365,10 @@ const names = 'opu';
 //name = 'rahim';
 console.log(age, names);
  */
-const myInches = 12;
+/* const myInches = 12;
 const myFeet = myInches / 12;
-console.log(myFeet);
+console.log(myFeet); */
+//------------or---------------
+const dadaInch = 144;
+const dadaFeet = dadaInch / 12;
+console.log('dadar feet : ' , dadaFeet);
