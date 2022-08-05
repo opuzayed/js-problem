@@ -287,13 +287,13 @@ const result2 = add(25, 25);
 const finalResult = result1 + result2;
 console.log('The final result is : ' , finalResult); */
 //----------------------object_example--------------------
-var shoppingCart = {
+/* var shoppingCart = {
   egg: 12,
   hen: 3,
   pen: 34,
   books: 4,
   mouse: 3,
-};
+}; */
 /* console.log(shoppingCart);
 var countPen = shoppingCart.pen;
 //console.log(countPen);
@@ -373,7 +373,7 @@ console.log(myFeet); */
 const dadaFeet = dadaInch / 12;
 console.log('dadar feet : ' , dadaFeet); */
 //-----------------------using-function-inches-feet-------------------------
-function inchToFeet(inch)
+/* function inchToFeet(inch)
 {
    const feet = inch / 12;
    return feet;
@@ -381,3 +381,17 @@ function inchToFeet(inch)
 const dadaInch = 144;
 const dadaFeet = inchToFeet(dadaInch);
 console.log('dadas feet : ' , dadaFeet);
+
+const nanaInch = 168;
+const nanaFeet = inchToFeet(nanaInch);
+console.log('nanas feet : ', nanaFeet); */
+//----------------check even or odd------------------
+function isEven(number)
+{
+   const remainder = number % 2;
+   if(remainder == 0)
+   console.log('even number');
+   else
+   console.log('odd number');
+}
+isEven(29);
