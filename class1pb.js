@@ -399,12 +399,62 @@ console.log(myNumberIsEven);
 herNumberIsEven = isEven(28);
 console.log(herNumberIsEven); */
 //-------------------check-leap-year--------------------
-function isLeapYear(year)
+/* function isLeapYear(year)
 {
    const remainder = year % 4;
    if(remainder === 0)
-   console.log('your year is leapyear', year);
+   return true;
    else
-   console.log('your year is not a leap year', year);
+   return false;
 }
-isLeapYear(2016);
+const myLeapYear = isLeapYear(2016);
+console.log('My year : ', myLeapYear); */
+//-------------------parallel position of indrx and element an array-------------------
+/* function getSumOfAnAray(numbers)
+{
+for(let i=0; i<numbers.length; i++)
+{
+const index = i;
+const element = numbers[index];
+console.log(index , element);
+}
+}
+const myNumbers = [12, 13, 14, 15, 16, 17, 18];
+getSumOfAnAray(myNumbers);
+
+output:
+1 13
+2 14
+3 15
+4 16
+5 17
+6 18 */
+//-----------------sum of array--------------------
+/* function getSumOfAnAray(numbers)
+{
+let sum = 0;
+for(let i=0; i<numbers.length; i++)
+{
+const index = i;
+const element = numbers[index];
+sum = sum + element;
+console.log(index , element, sum);
+}
+}
+const myNumbers = [12, 13, 14, 15, 16, 17, 18];
+getSumOfAnAray(myNumbers); */
+//--------------sum of odd numbers of array----------------
+function getOddNumbersOfAnArray(numbers) {
+   const oddNumbers = [];
+  for (let i = 0; i < numbers.length; i++) {
+    const index = i;
+    const element = numbers[index];
+    if(element % 2 != 0)
+    console.log(index, element);
+    oddNumbers.push(element);
+  }
+  return oddNumbers;
+}
+const myNumbers = [12, 13, 15, 16, 17, 18, 20, 23, 25, 68, 89];
+const oddNumbers = getOddNumbersOfAnArray(myNumbers);
+console.log(oddNumbers);
