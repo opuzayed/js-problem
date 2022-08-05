@@ -440,21 +440,28 @@ const element = numbers[index];
 sum = sum + element;
 console.log(index , element, sum);
 }
+return sum;
 }
-const myNumbers = [12, 13, 14, 15, 16, 17, 18];
-getSumOfAnAray(myNumbers); */
-//--------------sum of odd numbers of array----------------
 function getOddNumbersOfAnArray(numbers) {
    const oddNumbers = [];
   for (let i = 0; i < numbers.length; i++) {
     const index = i;
     const element = numbers[index];
-    if(element % 2 != 0)
-    console.log(index, element);
-    oddNumbers.push(element);
+    if(element % 2 === 1)
+    {
+      console.log(index, element);
+      oddNumbers.push(element);
+    }
+    
   }
-  return oddNumbers;
+return oddNumbers;
 }
 const myNumbers = [12, 13, 15, 16, 17, 18, 20, 23, 25, 68, 89];
 const oddNumbers = getOddNumbersOfAnArray(myNumbers);
 console.log(oddNumbers);
+const oddNumberSum = getSumOfAnAray(oddNumbers);
+console.log('odd number sum : ', oddNumberSum); */
+//const myNumbers = [12, 13, 14, 15, 16, 17, 18];
+//getSumOfAnAray(myNumbers);
+
+
