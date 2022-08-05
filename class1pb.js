@@ -369,6 +369,15 @@ console.log(age, names);
 const myFeet = myInches / 12;
 console.log(myFeet); */
 //------------or---------------
-const dadaInch = 144;
+/* const dadaInch = 144;
 const dadaFeet = dadaInch / 12;
-console.log('dadar feet : ' , dadaFeet);
+console.log('dadar feet : ' , dadaFeet); */
+//-----------------------using-function-inches-feet-------------------------
+function inchToFeet(inch)
+{
+   const feet = inch / 12;
+   return feet;
+}
+const dadaInch = 144;
+const dadaFeet = inchToFeet(dadaInch);
+console.log('dadas feet : ' , dadaFeet);
