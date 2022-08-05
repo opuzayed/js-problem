@@ -357,10 +357,14 @@ switch (color) {
     console.log("sun light");
 } */
 //--------------------------let-const-var-------------
-let age = 12;
+/* let age = 12;
 age = 10;
 age = 15;
 age = 23;
 const names = 'opu';
 //name = 'rahim';
 console.log(age, names);
+ */
+const myInches = 12;
+const myFeet = myInches / 12;
+console.log(myFeet);
