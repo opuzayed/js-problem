@@ -386,7 +386,7 @@ const nanaInch = 168;
 const nanaFeet = inchToFeet(nanaInch);
 console.log('nanas feet : ', nanaFeet); */
 //----------------check even or odd------------------
-function isEven(number)
+/* function isEven(number)
 {
    const remainder = number % 2;
    if(remainder == 0)
@@ -397,4 +397,14 @@ function isEven(number)
 myNumberIsEven = isEven(29);
 console.log(myNumberIsEven);
 herNumberIsEven = isEven(28);
-console.log(herNumberIsEven);
+console.log(herNumberIsEven); */
+//-------------------check-leap-year--------------------
+function isLeapYear(year)
+{
+   const remainder = year % 4;
+   if(remainder === 0)
+   console.log('your year is leapyear', year);
+   else
+   console.log('your year is not a leap year', year);
+}
+isLeapYear(2016);
