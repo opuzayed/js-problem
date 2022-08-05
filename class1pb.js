@@ -390,8 +390,11 @@ function isEven(number)
 {
    const remainder = number % 2;
    if(remainder == 0)
-   console.log('even number');
+   return true;
    else
-   console.log('odd number');
+   return false;
 }
-isEven(29);
+myNumberIsEven = isEven(29);
+console.log(myNumberIsEven);
+herNumberIsEven = isEven(28);
+console.log(herNumberIsEven);
