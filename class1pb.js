@@ -339,7 +339,7 @@ for(var i=0; i<items.length; i++)
    console.log(propertyName, propertyValues);
 } */
 //------------------------switch------------------
-var color = "black";
+/* var color = "black";
 switch (color) {
   case "green":
     console.log("green light");
@@ -355,4 +355,12 @@ switch (color) {
     break;
   default:
     console.log("sun light");
-}
+} */
+//--------------------------let-const-var-------------
+let age = 12;
+age = 10;
+age = 15;
+age = 23;
+const names = 'opu';
+//name = 'rahim';
+console.log(age, names);
