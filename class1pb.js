@@ -518,7 +518,12 @@ r = 12;
 si = (p * t * r)/100;
 console.log("Simple interest is : " + si); */
 //-----------------compund-interest--------------------
-let p=100000, r=5, t=2;
-let A = p * (Math.pow((1+r/100),t));
+/* let p = 100000, r = 5, t = 2;
+let A = p * (Math.pow(( 1 + r / 100),t));
 let CI = A-p;
-console.log('compund interest is : ', CI);
+console.log('compund interest is : ', CI); */
+//---------------------compund interest----------------
+let p = 50000, r = 10, t = 2;
+A = p * (Math.pow ((1 + r/100), t))
+let ci = A - p;
+console.log('Complex interest is : ',ci.toFixed(2));
