@@ -502,10 +502,18 @@ let fahren = prompt('Enter a fahrenheit value : ');
 let celscious = parseInt((fahren - 32) * (5/9));
 console.log(`${fahren} degree fahrenheit is equal to ${celscious} degree celscious`); */
 //----------------using Function convert fahrenheit to celscious-----------------------
-function convertFahrenheitToCelscious(temperature){
+/* function convertFahrenheitToCelscious(temperature){
    let celsious = (temperature - 32) * (5/9);
    return parseInt(celsious);
 }
 let fahrenTemp = 92;
 let convertCelsTemp = convertFahrenheitToCelscious(fahrenTemp);
-console.log(`${fahrenTemp} degree fahrenheit is equal to ${convertCelsTemp} degree celsious`);
+console.log(`${fahrenTemp} degree fahrenheit is equal to ${convertCelsTemp} degree celsious`); */
+//-------------------simple-interest-------------------
+let p, n, r, si;
+p=15;
+n = 12;
+t = 12;
+r = 12;
+si = (p * t * r)/100;
+console.log("Simple interest is : " + si);
