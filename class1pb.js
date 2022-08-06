@@ -491,7 +491,13 @@ let number = 7
 let fact = factorial(number);
 console.log('the factorial is : ' , fact); */
 //---------------------------convert degree to celscious--------------
-let prompt = require ("prompt-sync")({sigint : true});
+/* let prompt = require ("prompt-sync")({sigint : true});
 let cels = prompt('Enter a celscious value : ');
 let fahrenheit = (cels * 1.8) + 32;
 console.log(`${cels} degree celscious is equal to ${fahrenheit}  degree fahrenheit`);
+ */
+//-----------------------convert celscious to degree---------------------
+let prompt = require ("prompt-sync")({sigint : true});
+let fahren = prompt('Enter a fahrenheit value : ');
+let celscious = parseInt((fahren - 32) * (5/9));
+console.log(`${fahren} degree fahrenheit is equal to ${celscious} degree celscious`);
