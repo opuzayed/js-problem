@@ -477,7 +477,7 @@ console.log('odd number sum : ', oddNumberSum); */
 }
 addNumbers(7);
  */
-function factorial(number)
+/* function factorial(number)
 {
    let result = 1;
 for(let i = number; i >= 1; i--){
@@ -486,5 +486,12 @@ for(let i = number; i >= 1; i--){
 }
 return result;
 }
-let fact = factorial(7);
-console.log('the factorial is : ' , fact);
+
+let number = 7
+let fact = factorial(number);
+console.log('the factorial is : ' , fact); */
+//---------------------------convert degree to celscious--------------
+let prompt = require ("prompt-sync")({sigint : true});
+let cels = prompt('Enter a celscious value : ');
+let fahrenheit = (cels * 1.8) + 32;
+console.log(`${cels} degree celscious is equal to ${fahrenheit}  degree fahrenheit`);
