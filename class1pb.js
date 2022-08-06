@@ -523,7 +523,12 @@ let A = p * (Math.pow(( 1 + r / 100),t));
 let CI = A-p;
 console.log('compund interest is : ', CI); */
 //---------------------compund interest----------------
-let p = 50000, r = 10, t = 2;
+/* let p = 50000, r = 10, t = 2;
 A = p * (Math.pow ((1 + r/100), t))
 let ci = A - p;
-console.log('Complex interest is : ',ci.toFixed(2));
+console.log('Complex interest is : ',ci.toFixed(2)); */
+//-------------practice-complex-problem---------------------
+let p = 70000, r = 4, t = 5;
+let A = p * (Math.pow((1+r/100), t));
+let ci = A - p;
+console.log('complex interest is : ', ci.toFixed(2));
