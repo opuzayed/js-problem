@@ -510,10 +510,15 @@ let fahrenTemp = 92;
 let convertCelsTemp = convertFahrenheitToCelscious(fahrenTemp);
 console.log(`${fahrenTemp} degree fahrenheit is equal to ${convertCelsTemp} degree celsious`); */
 //-------------------simple-interest-------------------
-let p, n, r, si;
+/* let p, n, r, si;
 p=15;
 n = 12;
 t = 12;
 r = 12;
 si = (p * t * r)/100;
-console.log("Simple interest is : " + si);
+console.log("Simple interest is : " + si); */
+//-----------------compund-interest--------------------
+let p=100000, r=5, t=2;
+let A = p * (Math.pow((1+r/100),t));
+let CI = A-p;
+console.log('compund interest is : ', CI);
