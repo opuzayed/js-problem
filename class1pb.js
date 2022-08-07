@@ -533,12 +533,16 @@ let A = p * (Math.pow((1+r/100), t));
 let ci = A - p;
 console.log('complex interest is : ', ci.toFixed(2)); */
 //----------------if-else-string-uppercse-lower case-------------------
-let userName = 'zayedOpu';
+/* let userName = 'zayedOpu';
 let userInput = 'zayedopu';
-if(userName == userInput)
+console.log(userName.toLowerCase());
+if(userName.toUpperCase() == userInput.toUpperCase())
 {
    console.log('valid user');
 }
 else{
    console.log('invalid user');
-}
+} */
+let lyrics = 'ami tomer moner vitor ekbar gure ashte chai';
+let doesExist = lyrics.includes('tomer');
+console.log(doesExist);
