@@ -566,12 +566,22 @@ console.log(lyrics.startsWith('Hello')); */
 let picName = 'image.png';
 console.log(fileName.endsWith('pdfd')); */
 //------------split-------------
-let lyrics = 'prithibir joto sukh. joto balobasha . sobei j timai debo .';
+/* let lyrics = 'prithibir joto sukh. joto balobasha . sobei j timai debo .';
 //let lyricsSplit = lyrics.split(' ');
 let sentences = lyrics.split('.');
 let sliceLyrics = lyrics.slice(0, 11);
 let checkSubString = lyrics.substring();
 //console.log(sliceLyrics);
 console.log(checkSubString);
+let lyricse = 
+[
+   'prithibir joto sukh',
+   'joto balobasha',
+   'sobei j timai debo'
+];
+let newLyrics = lyricse.join('.'); */
+//-------------math.pow--------------
+let value = Math.pow(3, 3);
+console.log(value);
 
 
