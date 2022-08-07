@@ -611,5 +611,7 @@ console.log(flooorNumber);
 //---------------math.random------------------------
 //console.log(Math.random());
 //------------------Math.random()-1 to 100 value give-----------
-let value = Math.random()*100;
-console.log(value);
+for (let i = 0; i < 20; i++) {
+  let value = Math.round(Math.random() * 6);
+  console.log(value);
+}
