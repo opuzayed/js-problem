@@ -528,7 +528,17 @@ A = p * (Math.pow ((1 + r/100), t))
 let ci = A - p;
 console.log('Complex interest is : ',ci.toFixed(2)); */
 //-------------practice-complex-problem---------------------
-let p = 70000, r = 4, t = 5;
+/* let p = 70000, r = 4, t = 5;
 let A = p * (Math.pow((1+r/100), t));
 let ci = A - p;
-console.log('complex interest is : ', ci.toFixed(2));
+console.log('complex interest is : ', ci.toFixed(2)); */
+//----------------if-else-string-uppercse-lower case-------------------
+let userName = 'zayedOpu';
+let userInput = 'zayedopu';
+if(userName == userInput)
+{
+   console.log('valid user');
+}
+else{
+   console.log('invalid user');
+}
