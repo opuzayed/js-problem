@@ -544,5 +544,6 @@ else{
    console.log('invalid user');
 } */
 let lyrics = 'ami tomer moner vitor ekbar gure ashte chai';
-let doesExist = lyrics.includes('tomer');
+let searchString = 'MONER';
+let doesExist = lyrics.toLowerCase().includes(searchString.toLowerCase());
 console.log(doesExist);
