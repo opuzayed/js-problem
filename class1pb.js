@@ -581,7 +581,18 @@ let lyricse =
 ];
 let newLyrics = lyricse.join('.'); */
 //-------------math.pow--------------
-let value = Math.pow(3, 3);
-console.log(value);
+/* let value = Math.pow(3, 3);
+console.log(value); */
+//-------------if-else---------------
+let num1 = 25;
+let num2 = 45;
+let gap = num1 - num2;
+if(gap < 5)
+{
+   console.log("You Guys Can Be Friend");
+}
+else{
+   console.log("You guys stay apart");
+}
 
 
