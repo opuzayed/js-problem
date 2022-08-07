@@ -543,7 +543,26 @@ if(userName.toUpperCase() == userInput.toUpperCase())
 else{
    console.log('invalid user');
 } */
-let lyrics = 'ami tomer moner vitor ekbar gure ashte chai';
+/* let lyrics = 'ami tomer moner vitor ekbar gure ashte chai';
 let searchString = 'MONER';
 let doesExist = lyrics.toLowerCase().includes(searchString.toLowerCase());
-console.log(doesExist);
+console.log(doesExist); */
+//----------------string-indexof---------------
+/* let lyrics = 'Ami Tomer Moner Vitor Ekbar';
+let lyricsIndex = lyrics.toLowerCase().indexOf('moner');
+console.log(lyricsIndex); */
+//-----------------------------if-else-----------
+/* let lyrics = 'Hello, I am here';
+let lyricsIndex = 'Hello';
+if(lyrics.indexOf(lyricsIndex) !== -1)
+{
+console.log('INSIDE HERE');
+}
+else{
+   console.log('its not here');
+}
+console.log(lyrics.startsWith('Hello')); */
+let fileName = 'data.pdf';
+let picName = 'image.png';
+console.log(fileName.endsWith('pdfd'));
+
