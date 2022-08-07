@@ -562,7 +562,16 @@ else{
    console.log('its not here');
 }
 console.log(lyrics.startsWith('Hello')); */
-let fileName = 'data.pdf';
+/* let fileName = 'data.pdf';
 let picName = 'image.png';
-console.log(fileName.endsWith('pdfd'));
+console.log(fileName.endsWith('pdfd')); */
+//------------split-------------
+let lyrics = 'prithibir joto sukh. joto balobasha . sobei j timai debo .';
+//let lyricsSplit = lyrics.split(' ');
+let sentences = lyrics.split('.');
+let sliceLyrics = lyrics.slice(0, 11);
+let checkSubString = lyrics.substring();
+//console.log(sliceLyrics);
+console.log(checkSubString);
+
 
