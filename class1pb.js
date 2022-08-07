@@ -583,16 +583,33 @@ let newLyrics = lyricse.join('.'); */
 //-------------math.pow--------------
 /* let value = Math.pow(3, 3);
 console.log(value); */
-//-------------if-else---------------
-let num1 = 25;
+//-------------if-else(math.abs)---------------
+/* let num1 = 25;
 let num2 = 45;
-let gap = num1 - num2;
+let gap = Math.abs(num1 - num2);
 if(gap < 5)
 {
    console.log("You Guys Can Be Friend");
 }
 else{
    console.log("You guys stay apart");
-}
-
-
+} */
+//-----------------math.round---------
+/* let num = 2.5678;
+let roundedNumber = Math.round(num);
+console.log(roundedNumber);
+ */
+//-------------MATH.ceil-----------
+/* let number = 0.0000002;
+let ceilNumber = Math.ceil(number);
+console.log(ceilNumber); */
+//--------------Math.ceil--------------
+/* let number = 0.956;
+let flooorNumber = Math.floor(number);
+console.log(flooorNumber);
+ */
+//---------------math.random------------------------
+//console.log(Math.random());
+//------------------Math.random()-1 to 100 value give-----------
+let value = Math.random()*100;
+console.log(value);
