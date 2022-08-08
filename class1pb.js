@@ -623,6 +623,19 @@ console.log(num1 , num2);
 num1 = num2;
 num2 = temp; */
 //console.log(num1 , num2);
-//----------------Destructuring-------------
-[num1 , num2] = [num2 , num1];
-console.log(num1 , num2);
+//----------------Destructuring-swap-------------
+/* [num1 , num2] = [num2 , num1];
+console.log(num1 , num2); */
+//-------------------------marks-compare---------------------------
+let jim = 45;
+let Dela = 34;
+let Chinku = 78;
+if(jim > Dela && jim > Chinku)
+console.log('Jim will get the cake');
+else if(Dela > jim && Dela > Chinku)
+{
+console.log('Dela will get the cake');
+}
+else{
+   console.log('Chinku will get the cake');
+}
