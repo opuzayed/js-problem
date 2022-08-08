@@ -640,7 +640,7 @@ else{
    console.log('Chinku will get the cake');
 } */
 //----------------max-in-Array(largest number)-------------
-function maxInArray(numbers) {
+/* function maxInArray(numbers) {
   let largest = numbers[0];
   for (let i = 0; i < numbers.length; i++) {
     const index = i;
@@ -652,4 +652,25 @@ function maxInArray(numbers) {
 }
 const heights = [167, 190, 120, 165, 137, 200];
 let tallest = maxInArray(heights);
-console.log(tallest);
+console.log(tallest); */
+//---------------reverse-string------------
+function reverseText(text)
+{
+   /* for(let i=0; i <text.length; i++)
+   {
+      const element = text[i];
+      console.log(element);
+   } */
+   let reversed = '';
+   for(let i = text.length -1; i >= 0; i--)
+   {
+      const element = text[i];
+      reversed = reversed + element;
+      console.log(element, reversed);
+   }
+   return reversed;
+}
+
+const textString = 'i am a bad boy';
+const reversed = reverseText(textString);
+console.log(reversed);
