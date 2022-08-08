@@ -715,6 +715,23 @@ const numberre = [23, 54, 76, 86, 76, 90, 54];
 const sliceNumber = numberre.slice(1, 8);
 //console.log(sliceNumber);
 //-------------use splice(1, 6)1 means start point and 6 means 6ta remove korbe----------
-let splitnumbers = [1, 2, 3, 4, 5, 6, 7, 24, 45, 67, 57];
+/* let splitnumbers = [1, 2, 3, 4, 5, 6, 7, 24, 45, 67, 57];
 let numbersSplit = splitnumbers.splice(2, 5);
-console.log(numbersSplit);
+console.log(numbersSplit); */
+//-----------------Duplicate-value--------------
+function duplicateNames(names)
+{
+   let unique = [];
+   for(let i=0; i<names.length; i++)
+   {
+      const name = names[i];
+      if(unique.includes(name) === false)
+      {
+         unique.push(name);
+      }
+   }
+   return unique;
+}
+const nameList = ['opu', 'dipu', 'rony', 'rakib', 'tipu', 'opu','rony', 'tipu', 'rakib', 'mango', 'apple'];
+const uniqeName = duplicateNames(nameList);
+console.log(uniqeName);
