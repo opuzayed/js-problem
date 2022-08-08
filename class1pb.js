@@ -616,9 +616,9 @@ console.log(flooorNumber);
   console.log(value);
 } */
 //--------------------------swap.js------------------------------
-let num1 = 10;
+/* let num1 = 10;
 let num2 = 12;
-console.log(num1 , num2);
+console.log(num1, num2); */
 /* let temp = num1;
 num1 = num2;
 num2 = temp; */
@@ -627,7 +627,7 @@ num2 = temp; */
 /* [num1 , num2] = [num2 , num1];
 console.log(num1 , num2); */
 //-------------------------marks-compare---------------------------
-let jim = 45;
+/* let jim = 45;
 let Dela = 34;
 let Chinku = 78;
 if(jim > Dela && jim > Chinku)
@@ -638,4 +638,18 @@ console.log('Dela will get the cake');
 }
 else{
    console.log('Chinku will get the cake');
+} */
+//----------------max-in-Array(largest number)-------------
+function maxInArray(numbers) {
+  let largest = numbers[0];
+  for (let i = 0; i < numbers.length; i++) {
+    const index = i;
+    const element = numbers[i];
+    if(element > largest)
+    largest = element;
+  }
+  return largest;
 }
+const heights = [167, 190, 120, 165, 137, 200];
+let tallest = maxInArray(heights);
+console.log(tallest);
