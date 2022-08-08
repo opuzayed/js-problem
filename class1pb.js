@@ -706,7 +706,11 @@ let number = [1, 2, 3, 4];
 let numbers = [1, 2, 3, 4];
 //console.log(numbers.includes(5));
 //-----------use concat-------------
-let NUMBER =[1, 2, 3, 4];
+/* let NUMBER =[1, 2, 3, 4];
 let anoNumber = [12, 13,14,3,5,6];
 let newNumber = anoNumber.concat(NUMBER);
-console.log(newNumber);
+console.log(newNumber); */
+//-------------use slice()--------------
+const numberre = [23, 54, 76, 86, 76, 90, 54];
+const sliceNumber = numberre.slice(1, 8);
+console.log(sliceNumber);
