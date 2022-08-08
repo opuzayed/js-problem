@@ -611,7 +611,15 @@ console.log(flooorNumber);
 //---------------math.random------------------------
 //console.log(Math.random());
 //------------------Math.random()-1 to 100 value give-----------
-for (let i = 0; i < 20; i++) {
+/* for (let i = 0; i < 20; i++) {
   let value = Math.round(Math.random() * 6);
   console.log(value);
-}
+} */
+//--------------------------swap.js------------------------------
+let num1 = 10;
+let num2 = 12;
+console.log(num1 , num2);
+let temp = num1;
+num1 = num2;
+num2 = temp;
+console.log(num1 , num2);
