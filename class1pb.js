@@ -654,9 +654,9 @@ const heights = [167, 190, 120, 165, 137, 200];
 let tallest = maxInArray(heights);
 console.log(tallest); */
 //---------------reverse-string------------
-function reverseText(text)
+  function reverseText(text)
 {
-   /* for(let i=0; i <text.length; i++)
+  /*  for(let i=0; i <text.length; i++)
    {
       const element = text[i];
       console.log(element);
@@ -670,13 +670,12 @@ function reverseText(text)
    }
    return reversed;
 }
-
 const textString = 'i am a bad boy';
 const reversed = reverseText(textString);
-//console.log(reversed);
+//console.log(reversed); 
 
 //-----------------reverse-word--------------
-function reverseWord(word)
+/* function reverseWord(word)
 {
    const words = word.split(' ');
    //console.log(words);
@@ -692,4 +691,14 @@ function reverseWord(word)
 }
 const wordString = 'i am a good boy';
 const reversedWord = reverseWord(wordString);
-console.log(reverseWord);
+console.log(reverseWord); */
+//-------------------series-------------
+/* const fibo = [0, 1];
+for(let i=2; i<=15; i++)
+{
+   fibo[i] = fibo[i-1] + fibo[i-2];
+}
+console.log(fibo); */
+//--------array check korar jonno (Array.isArray) use korbo----------
+let number = [1, 2, 3, 4];
+console.log(Array.isArray(number));
