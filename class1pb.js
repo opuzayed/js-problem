@@ -666,11 +666,30 @@ function reverseText(text)
    {
       const element = text[i];
       reversed = reversed + element;
-      console.log(element, reversed);
+      //console.log(element, reversed);
    }
    return reversed;
 }
 
 const textString = 'i am a bad boy';
 const reversed = reverseText(textString);
-console.log(reversed);
+//console.log(reversed);
+
+//-----------------reverse-word--------------
+function reverseWord(word)
+{
+   const words = word.split(' ');
+   //console.log(words);
+   let result = [];
+   for(let i = words.length-1; i >= 0; i--)
+   {
+      const element = words[i];
+      result.push(element);
+   }
+   console.log(result);
+   const reversed = result.join(' ');
+    return reversed;
+}
+const wordString = 'i am a good boy';
+const reversedWord = reverseWord(wordString);
+console.log(reverseWord);
