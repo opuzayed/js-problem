@@ -701,7 +701,12 @@ for(let i=2; i<=15; i++)
 console.log(fibo); */
 //--------array check korar jonno (Array.isArray) use korbo----------
 let number = [1, 2, 3, 4];
-console.log(Array.isArray(number));
+//console.log(Array.isArray(number));
 //------------kono jinish arrayte ase kina check--------------
 let numbers = [1, 2, 3, 4];
-console.log(numbers.includes(5));
+//console.log(numbers.includes(5));
+//-----------use concat-------------
+let NUMBER =[1, 2, 3, 4];
+let anoNumber = [12, 13,14,3,5,6];
+let newNumber = anoNumber.concat(NUMBER);
+console.log(newNumber);
