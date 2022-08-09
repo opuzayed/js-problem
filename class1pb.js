@@ -746,7 +746,7 @@ console.log(uniqeName); */
    console.log(i);
 } */
 //-----------total-wood-count---------------
-function woodCalculator(chairQuantity, tableQuantity, bedQuantity) {
+/* function woodCalculator(chairQuantity, tableQuantity, bedQuantity) {
   const perChairWood = 3;
   const perTableWood = 10;
   const perBedWood = 50;
@@ -760,3 +760,25 @@ function woodCalculator(chairQuantity, tableQuantity, bedQuantity) {
 }
 const totalWood = woodCalculator(2, 4, 10);
 console.log('Total Wood Required : ', totalWood);
+ */
+//---------------find-cheapest-phone---------------------
+const phones = [
+   {name : 'samsung', color : 'blue', storage : '16gb', price : 40000},
+   {name : 'Nokia', color : 'black', storage : '164gb', price : 20000},
+   {name : 'Microsoft', color : 'blur', storage : '126gb', price : 30000},
+   {name : 'Vivo', color : 'black', storage : '162gb', price : 50000},
+   {name : 'Oppo', color : 'white', storage : '146gb', price : 60000},
+];
+function cheapestPhone(phones)
+{
+   let cheapest = phones[0];
+   for(let i=0; i<phones.length; i++)
+   {
+      const phone = phones[i];
+      if(phone . price < cheapest . price)
+      cheapest = phone;
+   }
+   return cheapest;
+}
+const mySelection = cheapestPhone(phones)
+console.log(mySelection);
