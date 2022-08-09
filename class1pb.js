@@ -762,7 +762,7 @@ const totalWood = woodCalculator(2, 4, 10);
 console.log('Total Wood Required : ', totalWood);
  */
 //---------------find-cheapest-phone---------------------
-const phones = [
+/* const phones = [
    {name : 'samsung', color : 'blue', storage : '16gb', price : 40000},
    {name : 'Nokia', color : 'black', storage : '164gb', price : 20000},
    {name : 'Microsoft', color : 'blur', storage : '126gb', price : 30000},
@@ -781,4 +781,22 @@ function cheapestPhone(phones)
    return cheapest;
 }
 const mySelection = cheapestPhone(phones)
-console.log(mySelection);
+console.log(mySelection); */
+//------------------find-total-cost------------
+const shoppingCart = [
+   {Name : 'shoe', Price : 2000},
+   {Name : 'shirt', Price : 2400},
+   {Name : 'pant', Price : 3000},
+   {Name : 'belt', Price : 1400}
+];
+function totalCost(products)
+{
+   for(let i = 0; i < products.length; i++)
+   {
+      const product = products[i];
+      console.log(product);
+   }
+
+}
+const expense = totalCost(shoppingCart);
+console.log('Todays expense is : ' , expense);
