@@ -654,25 +654,23 @@ const heights = [167, 190, 120, 165, 137, 200];
 let tallest = maxInArray(heights);
 console.log(tallest); */
 //---------------reverse-string------------
-  function reverseText(text)
-{
+function reverseText(text) {
   /*  for(let i=0; i <text.length; i++)
    {
       const element = text[i];
       console.log(element);
    } */
-   let reversed = '';
-   for(let i = text.length -1; i >= 0; i--)
-   {
-      const element = text[i];
-      reversed = reversed + element;
-      //console.log(element, reversed);
-   }
-   return reversed;
+  let reversed = "";
+  for (let i = text.length - 1; i >= 0; i--) {
+    const element = text[i];
+    reversed = reversed + element;
+    //console.log(element, reversed);
+  }
+  return reversed;
 }
-const textString = 'i am a bad boy';
+const textString = "i am a bad boy";
 const reversed = reverseText(textString);
-//console.log(reversed); 
+//console.log(reversed);
 
 //-----------------reverse-word--------------
 /* function reverseWord(word)
@@ -736,7 +734,7 @@ const nameList = ['opu', 'dipu', 'rony', 'rakib', 'tipu', 'opu','rony', 'tipu', 
 const uniqeName = duplicateNames(nameList);
 console.log(uniqeName); */
 //----------------(divisible / 3 show-(foo) and divisible / 5 show(bar) and divisible (3 and 5) show (foobar))
-for(let i=1; i<=50; i++)
+/* for(let i=1; i<=50; i++)
 {
    if(i % 3 === 0 && i % 5 === 0)
    console.log('foobar');
@@ -746,4 +744,19 @@ for(let i=1; i<=50; i++)
    console.log('bar');
    else
    console.log(i);
+} */
+//-----------total-wood-count---------------
+function woodCalculator(chairQuantity, tableQuantity, bedQuantity) {
+  const perChairWood = 3;
+  const perTableWood = 10;
+  const perBedWood = 50;
+
+  const chairWood = chairQuantity * perChairWood;
+  const tableWood = tableQuantity * perTableWood;
+  const bedWood = bedQuantity * perBedWood;
+
+  const totalWood = chairWood + tableWood + bedWood;
+  return totalWood;
 }
+const totalWood = woodCalculator(2, 4, 10);
+console.log('Total Wood Required : ', totalWood);
