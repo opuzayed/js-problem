@@ -654,22 +654,22 @@ const heights = [167, 190, 120, 165, 137, 200];
 let tallest = maxInArray(heights);
 console.log(tallest); */
 //---------------reverse-string------------
-function reverseText(text) {
+//function reverseText(text) {
   /*  for(let i=0; i <text.length; i++)
    {
       const element = text[i];
       console.log(element);
    } */
-  let reversed = "";
-  for (let i = text.length - 1; i >= 0; i--) {
+  //let reversed = "";
+  /* for (let i = text.length - 1; i >= 0; i--) {
     const element = text[i];
     reversed = reversed + element;
     //console.log(element, reversed);
   }
   return reversed;
-}
-const textString = "i am a bad boy";
-const reversed = reverseText(textString);
+} */
+//const textString = "i am a bad boy";
+//const reversed = reverseText(textString);
 //console.log(reversed);
 
 //-----------------reverse-word--------------
@@ -698,10 +698,10 @@ for(let i=2; i<=15; i++)
 }
 console.log(fibo); */
 //--------array check korar jonno (Array.isArray) use korbo----------
-let number = [1, 2, 3, 4];
+//let number = [1, 2, 3, 4];
 //console.log(Array.isArray(number));
 //------------kono jinish arrayte ase kina check--------------
-let numbers = [1, 2, 3, 4];
+//let numbers = [1, 2, 3, 4];
 //console.log(numbers.includes(5));
 //-----------use concat-------------
 /* let NUMBER =[1, 2, 3, 4];
@@ -709,8 +709,8 @@ let anoNumber = [12, 13,14,3,5,6];
 let newNumber = anoNumber.concat(NUMBER);
 console.log(newNumber); */
 //-------------use slice()--------------
-const numberre = [23, 54, 76, 86, 76, 90, 54];
-const sliceNumber = numberre.slice(1, 8);
+//const numberre = [23, 54, 76, 86, 76, 90, 54];
+//const sliceNumber = numberre.slice(1, 8);
 //console.log(sliceNumber);
 //-------------use splice(1, 6)1 means start point and 6 means 6ta remove korbe----------
 /* let splitnumbers = [1, 2, 3, 4, 5, 6, 7, 24, 45, 67, 57];
@@ -783,11 +783,11 @@ function cheapestPhone(phones)
 const mySelection = cheapestPhone(phones)
 console.log(mySelection); */
 //------------------find-total-cost------------
-const shoppingCart = [
-   {Name : 'shoe', Price : 2000},
-   {Name : 'shirt', Price : 2400},
-   {Name : 'pant', Price : 3000},
-   {Name : 'belt', Price : 1400}
+/* const shoppingCart = [
+   {Name : 'shoe', Price : 2000, quantity : 5},
+   {Name : 'shirt', Price : 2400, quantity : 2},
+   {Name : 'pant', Price : 3000, quantity : 4},
+   {Name : 'belt', Price : 1400, quantity : 6}
 ];
 function totalCost(products)
 {
@@ -795,10 +795,11 @@ function totalCost(products)
    for(let i = 0; i < products.length; i++)
    {
       const product = products[i];
-      sum = sum + product.Price;
+      const productTotal = product.Price * product.quantity;
+      sum = sum + productTotal;
       console.log(product);
    }
    return sum;
 }
 const expense = totalCost(shoppingCart);
-console.log('Todays expense is : ' , expense);
+console.log('Todays expense is : ' , expense); */
