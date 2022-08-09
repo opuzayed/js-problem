@@ -719,7 +719,7 @@ const sliceNumber = numberre.slice(1, 8);
 let numbersSplit = splitnumbers.splice(2, 5);
 console.log(numbersSplit); */
 //-----------------Duplicate-value--------------
-function duplicateNames(names)
+/* function duplicateNames(names)
 {
    let unique = [];
    for(let i=0; i<names.length; i++)
@@ -734,4 +734,16 @@ function duplicateNames(names)
 }
 const nameList = ['opu', 'dipu', 'rony', 'rakib', 'tipu', 'opu','rony', 'tipu', 'rakib', 'mango', 'apple'];
 const uniqeName = duplicateNames(nameList);
-console.log(uniqeName);
+console.log(uniqeName); */
+//----------------(divisible / 3 show-(foo) and divisible / 5 show(bar) and divisible (3 and 5) show (foobar))
+for(let i=1; i<=50; i++)
+{
+   if(i % 3 === 0 && i % 5 === 0)
+   console.log('foobar');
+   else if(i % 3 === 0)
+   console.log('foo');
+   else if(i % 5 === 0)
+   console.log('bar');
+   else
+   console.log(i);
+}
