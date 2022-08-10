@@ -923,8 +923,8 @@ console.log(positiveNumbers); */
 }
 const sumPositiveNumbers = onlyPositive();
 console.log(sumPositiveNumbers); */
-//--------------------------sumallnumbers------------
-function onlyPositive()
+//--------------------------sum all numbers------------
+/* function onlyPositive()
 {
    const numbers = [2, 3, 4, 5, -6, 7, 8, -8, 90];
    const newNumbers = [];
@@ -944,8 +944,22 @@ function onlyPositive()
 }
 const sumAllPositiveNumbers = onlyPositive();
 console.log(sumAllPositiveNumbers);
+ */
+//---------------sum all ticket price(condition:ist 100 ticket price : 100, 2nd 100 ticket price : 90, rest 100 ticket price : 70)
+function ticketPrice(ticketQuantity)
+{
+  const first100TicketRate = 100;
+  const second100TicketRate = 90;
+  const restTicketRate = 70;
+  if(ticketQuantity <= 100)
+  {
+   const price = ticketQuantity * first100TicketRate;
+   return price;
+  }
 
-
+}
+const totalTicketCost = ticketPrice(5);
+console.log('Totalamount of ticket price : ', totalTicketCost);
 
 
 
