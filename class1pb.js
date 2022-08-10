@@ -956,7 +956,24 @@ function ticketPrice(ticketQuantity)
    const price = ticketQuantity * first100TicketRate;
    return price;
   }
+  else if(ticketQuantity <= 200)
+  {
+      const Ist100TicketPrice = 100 * first100TicketRate;
+      const restTicketQuantity = ticketQuantity - 100;
+      const restTicketPrice = restTicketQuantity * 90;
+      const totalPrice = Ist100TicketPrice + restTicketPrice;
+      return totalPrice;
+  }
+  else
+  {
+   const Ist100TicketPrice = 100 * first100TicketRate;
+   const second100TicketPrice = 100 * second100TicketRate;
+   const restTicketQuantity = ticketQuantity - 200;
+   const restTicketPrice = restTicketQuantity * 70;
+   const totalPrice = Ist100TicketPrice + second100TicketPrice + restTicketPrice;
+   return
 
+  }
 }
 const totalTicketCost = ticketPrice(5);
 console.log('Totalamount of ticket price : ', totalTicketCost);
