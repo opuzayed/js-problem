@@ -803,3 +803,149 @@ function totalCost(products)
 }
 const expense = totalCost(shoppingCart);
 console.log('Todays expense is : ' , expense); */
+//--------------------feet to inch------------------
+/* function feetToInch(feetValue)
+{
+   //const inch = 12;
+   let inch = feetValue * 12;
+   return inch;
+}
+const feetValue = 14;
+const convertedFeet = feetToInch(feetValue);
+console.log(feetValue, convertedFeet); */
+//-------------------centimeter to meter------------------
+/* function centimeterToMeter(centimeterValue)
+{
+   
+   let meter = centimeterValue * 0.01;
+   return meter;
+}
+const centimeterValue = 140;
+const convertedToMeter = centimeterToMeter(centimeterValue);
+console.log(centimeterValue, convertedToMeter.toFixed(2)); */
+//------------------total paper count---------------
+/* function paperRequirements(book1, book2, book3)
+{
+   const book1Page = 100;
+   const book2Page = 200;
+   const book3Page = 300;
+   let book1Value =  book1 * book1Page;
+   let book2Value =  book2 * book2Page;
+   let book3Value =  book3 * book3Page;
+   let totalPage = book1Value + book2Value + book3Value;
+   return totalPage;
+}
+let book1 = 5;
+let book2 = 6;
+let book3 = 7;
+
+let allPage = paperRequirements(book1, book2,book3);
+console.log(book1, book2, book3, allPage); */
+//-----------------show-big-name----------------
+/* function bestFriend()
+{
+   const friends = ['kamal', 'jamal', 'damal', 'tipu sultan', 'takla sultan', 'opu takla'];
+   
+  
+    let max_str = friends[0].length;
+    let ans = friends[0];
+    for (let i = 1; i < friends.length; i++) {
+        let element = friends[i].length;
+        if (element > max_str) {
+            ans = friends[i];
+            max_str = element;
+        }
+    }
+    console.log(friends);
+    return ans;
+   }
+   const largestName = bestFriend();
+console.log(largestName); */
+//---------------add positive number untill - value comes--------------------
+/* function onlyPositive()
+{
+   const numbers = [2, 3, 4, 5, -6, 7, 8];
+   const newNumbers = [];
+   for(let i=0; i<numbers.length; i++)
+   {
+      if(numbers[i] > 0)
+      {
+         newNumbers.push(numbers[i]);
+      }
+      else {
+         break;
+      }
+   }
+   return newNumbers;
+   //console.log(newNumbers);
+}
+const positiveNumbers = onlyPositive();
+console.log(positiveNumbers);
+ */
+//------------------find all positive value---------------
+/* function onlyPositive()
+{
+   const numbers = [2, 3, 4, 5, -6, 7, 8, -8, 90];
+   const newNumbers = [];
+   for(let i=0; i<numbers.length; i++)
+   {
+      if(numbers[i] > 0)
+      {
+         newNumbers.push(numbers[i]);
+      }
+      else {
+         continue;
+      }
+   }
+   return newNumbers;
+   //console.log(newNumbers);
+}
+const positiveNumbers = onlyPositive();
+console.log(positiveNumbers); */
+//----------------
+/* function onlyPositive()
+{
+   const numbers = [2, 3, 4, 5, -6, 7, 8, -8, 90];
+   const newNumbers = [];
+   let sum = 0;
+   for(let i=0; i<numbers.length; i++)
+   //sum = sum + numbers[i];
+   {
+      if(numbers[i] > 0)
+      {
+         sum = sum + numbers[i];
+      }
+      else{
+         break;
+      }
+   }
+  return sum;
+}
+const sumPositiveNumbers = onlyPositive();
+console.log(sumPositiveNumbers); */
+//--------------------------sumallnumbers------------
+function onlyPositive()
+{
+   const numbers = [2, 3, 4, 5, -6, 7, 8, -8, 90];
+   const newNumbers = [];
+   let sum = 0;
+   for(let i=0; i<numbers.length; i++)
+   //sum = sum + numbers[i];
+   {
+      if(numbers[i] > 0)
+      {
+         sum = sum + numbers[i];
+      }
+      else{
+         continue;
+      }
+   }
+  return sum;
+}
+const sumAllPositiveNumbers = onlyPositive();
+console.log(sumAllPositiveNumbers);
+
+
+
+
+
