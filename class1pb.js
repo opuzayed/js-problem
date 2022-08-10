@@ -971,11 +971,11 @@ function ticketPrice(ticketQuantity)
    const restTicketQuantity = ticketQuantity - 200;
    const restTicketPrice = restTicketQuantity * 70;
    const totalPrice = Ist100TicketPrice + second100TicketPrice + restTicketPrice;
-   return
+   return totalPrice;
 
   }
 }
-const totalTicketCost = ticketPrice(5);
+const totalTicketCost = ticketPrice(210);
 console.log('Totalamount of ticket price : ', totalTicketCost);
 
 
