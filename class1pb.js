@@ -1016,7 +1016,7 @@ else{
 const checkIsJsFile = isJavaScriptFile(1);
 console.log(checkIsJsFile); */
 //-----------calculate total amoun---------
-function oilPrice(dieselQuantity, patrolQuantity, octaneQuantity)
+/* function oilPrice(dieselQuantity, patrolQuantity, octaneQuantity)
 {
    const dieselPrice = 114;
    const patrolPrice = 130;
@@ -1036,4 +1036,11 @@ function oilPrice(dieselQuantity, patrolQuantity, octaneQuantity)
    }
 }
 const totalCalculatedAmount = oilPrice(1, 0, 1);
-console.log(totalCalculatedAmount);
+console.log(totalCalculatedAmount); */
+//-------------for loop(decrement)------------
+let sum = 0;
+for(let i=5; i>=1; i--)
+{
+   sum = sum + i;
+}
+console.log(sum);
