@@ -655,13 +655,13 @@ let tallest = maxInArray(heights);
 console.log(tallest); */
 //---------------reverse-string------------
 //function reverseText(text) {
-  /*  for(let i=0; i <text.length; i++)
+/*  for(let i=0; i <text.length; i++)
    {
       const element = text[i];
       console.log(element);
    } */
-  //let reversed = "";
-  /* for (let i = text.length - 1; i >= 0; i--) {
+//let reversed = "";
+/* for (let i = text.length - 1; i >= 0; i--) {
     const element = text[i];
     reversed = reversed + element;
     //console.log(element, reversed);
@@ -946,7 +946,7 @@ const sumAllPositiveNumbers = onlyPositive();
 console.log(sumAllPositiveNumbers);
  */
 //---------------sum all ticket price(condition:ist 100 ticket price : 100, 2nd 100 ticket price : 90, rest 100 ticket price : 70)
-function ticketPrice(ticketQuantity)
+/* function ticketPrice(ticketQuantity)
 {
   const first100TicketRate = 100;
   const second100TicketRate = 90;
@@ -977,6 +977,63 @@ function ticketPrice(ticketQuantity)
 }
 const totalTicketCost = ticketPrice(210);
 console.log('Totalamount of ticket price : ', totalTicketCost);
+ */
+//---------------simple-problem(sum 1 to 5)
+/* let sum = 0;
+for (let i = 0; i < 5; i++) {
+  sum = sum + i;
+  console.log(sum);
+} */
+//-----------radiantodegree------------
+/* function radianToDegree(number) {
+  const pi = Math.PI;
+  if (typeof number == 'number' || typeof number != null) {
+    const degree = number * (180 / pi);
+    return degree.toFixed(2);
+  } else {
+    return "please enter a valid numver";
+  }
+}
+const convertRadianToDegree = radianToDegree(4);
+console.log(parseFloat(convertRadianToDegree)); */
+//---------------check : isJavaScriptFile-------------
+/* function isJavaScriptFile(filename)
+{
+   if(typeof filename == 'string'){
+   if(filename.endsWith('.js'))
+   {
+      return true;
+   } 
+   else
+   {
+   false;
+   }
+}
+else{
+   return 'please enter a valid string'
+}
+}
+const checkIsJsFile = isJavaScriptFile(1);
+console.log(checkIsJsFile); */
+//-----------calculate total amoun---------
+function oilPrice(dieselQuantity, patrolQuantity, octaneQuantity)
+{
+   const dieselPrice = 114;
+   const patrolPrice = 130;
+   const octanePrice = 135;
 
+   if(typeof dieselQuantity == "number" && typeof patrolQuantity == "number" && typeof octaneQuantity == "number" && dieselQuantity != null && patrolQuantity != null && octaneQuantity != null){
+   const dieselRate = dieselQuantity * dieselPrice;
+   const patrolRate = patrolQuantity * patrolPrice;
+   const octaneRate = octaneQuantity * octanePrice;
 
+   const totalAmount = dieselRate + patrolRate + octaneRate;
 
+   return totalAmount;
+   }
+   else{
+      return 'Please Enter A Valid Number';
+   }
+}
+const totalCalculatedAmount = oilPrice(1, 0, 1);
+console.log(totalCalculatedAmount);
